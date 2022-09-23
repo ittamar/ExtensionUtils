@@ -16,7 +16,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.progdeelite.dca.MainActivity
 
-//Chamar esta função dentro do oncreate
+//Chamar esta função dentro do oncreate da activity, caso activity controle os fragmentos inseri também no oncreate
 fun AppCompatActivity.preventScreenshotsAndRecentAppThumbnails() {
     window.setFlags(
         WindowManager.LayoutParams.FLAG_SECURE,
