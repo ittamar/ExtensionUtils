@@ -16,6 +16,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.progdeelite.dca.MainActivity
 
+//Chamar esta função dentro do oncreate
 fun AppCompatActivity.preventScreenshotsAndRecentAppThumbnails() {
     window.setFlags(
         WindowManager.LayoutParams.FLAG_SECURE,
